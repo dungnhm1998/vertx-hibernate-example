@@ -1,0 +1,6 @@
+com\app\resources\entities\TblUser.class
+com\app\model\dao\PersonDAO.class
+com\app\service\Main.class
+com\app\model\dao\UserDAO.class
+com\app\resources\entities\TblPerson.class
+com\app\model\HibernateUtil.class

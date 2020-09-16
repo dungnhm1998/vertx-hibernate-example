@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 16, 2020 12:00:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="Users" name=".TblPerson" optimistic-lock="version" schema="dbo" table="TblPerson">
+    <id name="personId" type="int">
+      <column name="personID"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="firstName" type="string">
+      <column name="firstName"/>
+    </property>
+    <property name="middleName" type="string">
+      <column name="middleName"/>
+    </property>
+    <property name="lastName" type="string">
+      <column name="lastName"/>
+    </property>
+    <property name="age" type="java.lang.Integer">
+      <column name="age"/>
+    </property>
+  </class>
+</hibernate-mapping>
