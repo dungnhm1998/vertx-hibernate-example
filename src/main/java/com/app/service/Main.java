@@ -21,7 +21,6 @@ public class Main {
         HibernateUtil h = new HibernateUtil();
 //        TblPerson person = new TblPerson("nguyen", "hoang dung", "manh", 22);
 //        PersonDAO pSession = new PersonDAO();
-//        System.out.println(pSession.add(person));
 
         TblUser user = new TblUser("usersix", "762313");
         UserDAO aSession = new UserDAO();
